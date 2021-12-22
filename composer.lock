@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58a0e0f260725b3448d9a6b192a7d972",
+    "content-hash": "7a88af1efd685aca65027adc7ce16bad",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1887,6 +1887,84 @@
                 "source": "https://github.com/php-fig/log/tree/3.0.0"
             },
             "time": "2021-07-14T16:46:02+00:00"
+        },
+        {
+            "name": "sensio/framework-extra-bundle",
+            "version": "v6.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
+                "reference": "eeab0bbe6ac94a600a7da7aac020646dcd739484"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/eeab0bbe6ac94a600a7da7aac020646dcd739484",
+                "reference": "eeab0bbe6ac94a600a7da7aac020646dcd739484",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "^1.0",
+                "php": ">=7.2.5",
+                "symfony/config": "^4.4|^5.0|^6.0",
+                "symfony/dependency-injection": "^4.4|^5.0|^6.0",
+                "symfony/framework-bundle": "^4.4|^5.0|^6.0",
+                "symfony/http-kernel": "^4.4|^5.0|^6.0"
+            },
+            "conflict": {
+                "doctrine/doctrine-cache-bundle": "<1.3.1",
+                "doctrine/persistence": "<1.3"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^2.10|^3.0",
+                "doctrine/doctrine-bundle": "^1.11|^2.0",
+                "doctrine/orm": "^2.5",
+                "symfony/browser-kit": "^4.4|^5.0|^6.0",
+                "symfony/doctrine-bridge": "^4.4|^5.0|^6.0",
+                "symfony/dom-crawler": "^4.4|^5.0|^6.0",
+                "symfony/expression-language": "^4.4|^5.0|^6.0",
+                "symfony/finder": "^4.4|^5.0|^6.0",
+                "symfony/monolog-bridge": "^4.0|^5.0|^6.0",
+                "symfony/monolog-bundle": "^3.2",
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9|^6.0",
+                "symfony/security-bundle": "^4.4|^5.0|^6.0",
+                "symfony/twig-bundle": "^4.4|^5.0|^6.0",
+                "symfony/yaml": "^4.4|^5.0|^6.0",
+                "twig/twig": "^1.34|^2.4|^3.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sensio\\Bundle\\FrameworkExtraBundle\\": "src/"
+                },
+                "exclude-from-classmap": [
+                    "/tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle provides a way to configure your controllers with annotations",
+            "keywords": [
+                "annotations",
+                "controllers"
+            ],
+            "support": {
+                "issues": "https://github.com/sensiolabs/SensioFrameworkExtraBundle/issues",
+                "source": "https://github.com/sensiolabs/SensioFrameworkExtraBundle/tree/v6.2.3"
+            },
+            "time": "2021-12-17T14:36:53+00:00"
         },
         {
             "name": "symfony/cache",
@@ -4508,6 +4586,82 @@
                 }
             ],
             "time": "2021-12-08T15:13:44+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v3.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "65cb6f0b956485e1664f13d023c55298a4bb59ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/65cb6f0b956485e1664f13d023c55298a4bb59ca",
+                "reference": "65cb6f0b956485e1664f13d023c55298a4bb59ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "^1.3"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9|^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Twig Team",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "templating"
+            ],
+            "support": {
+                "issues": "https://github.com/twigphp/Twig/issues",
+                "source": "https://github.com/twigphp/Twig/tree/v3.3.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-11-25T13:46:55+00:00"
         }
     ],
     "packages-dev": [
@@ -5256,82 +5410,6 @@
                 }
             ],
             "time": "2021-12-08T15:13:44+00:00"
-        },
-        {
-            "name": "twig/twig",
-            "version": "v3.3.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
-                "reference": "65cb6f0b956485e1664f13d023c55298a4bb59ca"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/65cb6f0b956485e1664f13d023c55298a4bb59ca",
-                "reference": "65cb6f0b956485e1664f13d023c55298a4bb59ca",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.5",
-                "symfony/polyfill-ctype": "^1.8",
-                "symfony/polyfill-mbstring": "^1.3"
-            },
-            "require-dev": {
-                "psr/container": "^1.0",
-                "symfony/phpunit-bridge": "^4.4.9|^5.0.9|^6.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Twig\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
-                    "name": "Twig Team",
-                    "role": "Contributors"
-                },
-                {
-                    "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
-                }
-            ],
-            "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "https://twig.symfony.com",
-            "keywords": [
-                "templating"
-            ],
-            "support": {
-                "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.3.4"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-11-25T13:46:55+00:00"
         }
     ],
     "aliases": [],
